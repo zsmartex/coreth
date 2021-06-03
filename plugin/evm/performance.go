@@ -4,8 +4,6 @@
 package evm
 
 import (
-	"context"
-
 	"github.com/ava-labs/avalanchego/utils/profiler"
 	"github.com/ethereum/go-ethereum/log"
 )
@@ -22,7 +20,7 @@ func NewPerformanceService(dir string) *Performance {
 }
 
 // StartCPUProfiler starts a cpu profile writing to the specified file
-func (p *Performance) StartCPUProfiler(ctx context.Context) (bool, error) {
+func (p *Performance) StartCPUProfiler() (bool, error) {
 	log.Info("Admin: StartCPUProfiler called")
 
 	err := p.profiler.StartCPUProfiler()
@@ -30,7 +28,7 @@ func (p *Performance) StartCPUProfiler(ctx context.Context) (bool, error) {
 }
 
 // StopCPUProfiler stops the cpu profile
-func (p *Performance) StopCPUProfiler(ctx context.Context) (bool, error) {
+func (p *Performance) StopCPUProfiler() (bool, error) {
 	log.Info("Admin: StopCPUProfiler called")
 
 	err := p.profiler.StopCPUProfiler()
@@ -38,7 +36,7 @@ func (p *Performance) StopCPUProfiler(ctx context.Context) (bool, error) {
 }
 
 // MemoryProfile runs a memory profile writing to the specified file
-func (p *Performance) MemoryProfile(ctx context.Context) (bool, error) {
+func (p *Performance) MemoryProfile() (bool, error) {
 	log.Info("Admin: MemoryProfile called")
 
 	err := p.profiler.MemoryProfile()
@@ -46,7 +44,7 @@ func (p *Performance) MemoryProfile(ctx context.Context) (bool, error) {
 }
 
 // LockProfile runs a mutex profile writing to the specified file
-func (p *Performance) LockProfile(ctx context.Context) (bool, error) {
+func (p *Performance) LockProfile() (bool, error) {
 	log.Info("Admin: LockProfile called")
 
 	err := p.profiler.LockProfile()
