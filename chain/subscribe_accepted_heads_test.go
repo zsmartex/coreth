@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/types"
 )
 
 func TestAcceptedHeadSubscriptions(t *testing.T) {

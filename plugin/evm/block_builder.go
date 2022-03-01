@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
-	coreth "github.com/ava-labs/coreth/chain"
-	"github.com/ava-labs/coreth/params"
+	coreth "github.com/zsmartex/coreth/chain"
+	"github.com/zsmartex/coreth/params"
 
-	"github.com/ava-labs/avalanchego/snow"
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/timer"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/avalanchego/snow"
+	commonEng "github.com/zsmartex/avalanchego/snow/engine/common"
+	"github.com/zsmartex/avalanchego/utils/timer"
 )
 
 // buildingBlkStatus denotes the current status of the VM in block production.

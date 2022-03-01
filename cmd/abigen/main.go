@@ -35,13 +35,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/accounts/abi/bind"
-	"github.com/ava-labs/coreth/internal/flags"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/common/compiler"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/accounts/abi"
+	"github.com/zsmartex/coreth/accounts/abi/bind"
+	"github.com/zsmartex/coreth/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

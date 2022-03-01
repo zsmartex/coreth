@@ -7,15 +7,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/params"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/zsmartex/avalanchego/chains/atomic"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/utils/constants"
+	"github.com/zsmartex/avalanchego/utils/crypto"
+	"github.com/zsmartex/avalanchego/vms/components/avax"
+	"github.com/zsmartex/avalanchego/vms/secp256k1fx"
 )
 
 // createImportTxOptions adds a UTXO to shared memory and generates a list of import transactions sending this UTXO

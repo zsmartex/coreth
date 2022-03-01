@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/coreth/params"
+	"github.com/zsmartex/avalanchego/chains/atomic"
+	"github.com/zsmartex/avalanchego/snow"
+	"github.com/zsmartex/coreth/params"
 )
 
 func TestCalculateDynamicFee(t *testing.T) {

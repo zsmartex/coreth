@@ -7,19 +7,19 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/params"
+	"github.com/zsmartex/coreth/core/state"
+	"github.com/zsmartex/coreth/params"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/avalanchego/chains/atomic"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/snow"
+	"github.com/zsmartex/avalanchego/utils/crypto"
+	"github.com/zsmartex/avalanchego/utils/math"
+	"github.com/zsmartex/avalanchego/vms/components/avax"
+	"github.com/zsmartex/avalanchego/vms/components/verify"
+	"github.com/zsmartex/avalanchego/vms/secp256k1fx"
 )
 
 // UnsignedImportTx is an unsigned ImportTx

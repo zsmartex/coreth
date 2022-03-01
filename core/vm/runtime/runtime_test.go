@@ -34,21 +34,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/eth/tracers"
-	"github.com/ava-labs/coreth/eth/tracers/logger"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/asm"
+	"github.com/zsmartex/coreth/accounts/abi"
+	"github.com/zsmartex/coreth/consensus"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/rawdb"
+	"github.com/zsmartex/coreth/core/state"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/core/vm"
+	"github.com/zsmartex/coreth/eth/tracers"
+	"github.com/zsmartex/coreth/eth/tracers/logger"
+	"github.com/zsmartex/coreth/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ava-labs/coreth/eth/tracers/js"
+	_ "github.com/zsmartex/coreth/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

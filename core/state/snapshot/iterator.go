@@ -31,9 +31,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/ethdb"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/core/rawdb"
+	"github.com/zsmartex/coreth/ethdb"
 )
 
 // Iterator is an iterator to step over all the accounts or the specific

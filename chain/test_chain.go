@@ -8,18 +8,18 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/coreth/accounts/keystore"
-	"github.com/ava-labs/coreth/consensus/dummy"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/eth"
-	"github.com/ava-labs/coreth/eth/ethconfig"
-	"github.com/ava-labs/coreth/node"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/zsmartex/avalanchego/utils/timer/mockable"
+	"github.com/zsmartex/coreth/accounts/keystore"
+	"github.com/zsmartex/coreth/consensus/dummy"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/rawdb"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/eth"
+	"github.com/zsmartex/coreth/eth/ethconfig"
+	"github.com/zsmartex/coreth/node"
+	"github.com/zsmartex/coreth/params"
 )
 
 var (

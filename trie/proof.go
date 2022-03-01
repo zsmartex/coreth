@@ -31,11 +31,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/ethdb/memorydb"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

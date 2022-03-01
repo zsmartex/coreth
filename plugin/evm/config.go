@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ava-labs/coreth/eth"
 	"github.com/spf13/cast"
+	"github.com/zsmartex/coreth/eth"
 )
 
 const (

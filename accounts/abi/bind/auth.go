@@ -34,13 +34,13 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/ava-labs/coreth/accounts"
-	"github.com/ava-labs/coreth/accounts/external"
-	"github.com/ava-labs/coreth/accounts/keystore"
-	"github.com/ava-labs/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/accounts"
+	"github.com/zsmartex/coreth/accounts/external"
+	"github.com/zsmartex/coreth/accounts/keystore"
+	"github.com/zsmartex/coreth/core/types"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

@@ -27,8 +27,8 @@
 package trie
 
 import (
-	"github.com/ava-labs/coreth/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/ethdb/memorydb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

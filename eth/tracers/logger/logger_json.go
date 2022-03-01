@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/coreth/core/vm"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/zsmartex/coreth/core/vm"
 )
 
 type JSONLogger struct {

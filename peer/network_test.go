@@ -12,15 +12,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/zsmartex/avalanchego/snow/engine/common"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/zsmartex/coreth/plugin/evm/message"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
 	"github.com/stretchr/testify/assert"
+	"github.com/zsmartex/avalanchego/codec"
+	"github.com/zsmartex/avalanchego/codec/linearcodec"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/version"
 )
 
 var (

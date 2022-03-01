@@ -40,8 +40,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ava-labs/coreth/accounts/abi"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/accounts/abi"
 )
 
 // Lang is a target programming language selector to generate bindings for.

@@ -9,13 +9,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/zsmartex/avalanchego/utils/math"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/params"
+	"github.com/zsmartex/coreth/trie"
 
-	coreth "github.com/ava-labs/coreth/chain"
+	coreth "github.com/zsmartex/coreth/chain"
 )
 
 var (

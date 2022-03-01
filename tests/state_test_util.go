@@ -34,17 +34,17 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/state/snapshot"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/state"
+	"github.com/zsmartex/coreth/core/state/snapshot"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/core/vm"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/params"
 )
 
 // StateTest checks transaction processing without block context.

@@ -34,13 +34,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/accounts/abi/bind"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/interfaces"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/coreth/accounts/abi/bind"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/interfaces"
+	"github.com/zsmartex/coreth/rpc"
 )
 
 // Verify that Client implements required interfaces

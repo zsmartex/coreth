@@ -38,13 +38,13 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/ethdb/memorydb"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/zsmartex/coreth/core/rawdb"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/ethdb/memorydb"
 	"golang.org/x/crypto/sha3"
 )
 

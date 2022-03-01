@@ -45,8 +45,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ava-labs/coreth/core"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/zsmartex/coreth/core"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

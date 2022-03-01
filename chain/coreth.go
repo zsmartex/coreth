@@ -7,16 +7,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/coreth/consensus/dummy"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/eth"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/node"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/avalanchego/utils/timer/mockable"
+	"github.com/zsmartex/coreth/consensus/dummy"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/state"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/eth"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/node"
+	"github.com/zsmartex/coreth/rpc"
 )
 
 var (

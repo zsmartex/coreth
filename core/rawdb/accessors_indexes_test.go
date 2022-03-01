@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/ethdb"
 	"golang.org/x/crypto/sha3"
 )
 

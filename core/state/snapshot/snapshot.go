@@ -36,12 +36,12 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/zsmartex/coreth/core/rawdb"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/trie"
 )
 
 const (

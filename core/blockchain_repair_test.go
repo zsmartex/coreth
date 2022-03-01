@@ -36,12 +36,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ava-labs/coreth/consensus/dummy"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/consensus/dummy"
+	"github.com/zsmartex/coreth/core/rawdb"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/core/vm"
+	"github.com/zsmartex/coreth/params"
 )
 
 // rewindTest is a test case for chain rollback upon user request.

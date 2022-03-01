@@ -30,10 +30,10 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/core/state"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/params"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

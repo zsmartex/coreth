@@ -32,12 +32,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/types"
 
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/params"
+	"github.com/zsmartex/coreth/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

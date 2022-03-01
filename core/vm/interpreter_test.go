@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/zsmartex/coreth/core/rawdb"
+	"github.com/zsmartex/coreth/core/state"
+	"github.com/zsmartex/coreth/params"
 )
 
 var loopInterruptTests = []string{

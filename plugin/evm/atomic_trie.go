@@ -8,19 +8,19 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/zsmartex/avalanchego/utils/units"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
+	"github.com/zsmartex/avalanchego/database"
+	"github.com/zsmartex/avalanchego/database/prefixdb"
+	"github.com/zsmartex/avalanchego/database/versiondb"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/avalanchego/chains/atomic"
+	"github.com/zsmartex/avalanchego/codec"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/utils/wrappers"
+	"github.com/zsmartex/coreth/trie"
 )
 
 const (

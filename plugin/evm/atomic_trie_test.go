@@ -7,14 +7,14 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/zsmartex/avalanchego/chains/atomic"
+	"github.com/zsmartex/avalanchego/database/memdb"
+	"github.com/zsmartex/avalanchego/database/versiondb"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/utils/logging"
+	"github.com/zsmartex/avalanchego/utils/wrappers"
 )
 
 const testCommitInterval = 100

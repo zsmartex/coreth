@@ -11,16 +11,16 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/avalanchego/api"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/utils/constants"
+	"github.com/zsmartex/avalanchego/utils/crypto"
+	"github.com/zsmartex/avalanchego/utils/formatting"
+	"github.com/zsmartex/avalanchego/utils/json"
+	"github.com/zsmartex/coreth/params"
 )
 
 // test constants

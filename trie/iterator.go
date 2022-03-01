@@ -31,9 +31,9 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/ava-labs/coreth/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/zsmartex/coreth/ethdb"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

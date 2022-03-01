@@ -10,15 +10,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/zsmartex/coreth/plugin/evm/message"
 
-	"github.com/ava-labs/avalanchego/snow/validators"
+	"github.com/zsmartex/avalanchego/snow/validators"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/version"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/avalanchego/codec"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/snow/engine/common"
+	"github.com/zsmartex/avalanchego/version"
 	"golang.org/x/sync/semaphore"
 )
 

@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ava-labs/coreth/core/vm"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

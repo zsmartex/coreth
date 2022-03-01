@@ -4,7 +4,7 @@
 package peer
 
 import (
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/zsmartex/avalanchego/version"
 )
 
 var _ Client = &client{}

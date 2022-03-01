@@ -8,16 +8,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	engCommon "github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/avalanchego/chains/atomic"
+	"github.com/zsmartex/avalanchego/ids"
+	engCommon "github.com/zsmartex/avalanchego/snow/engine/common"
+	"github.com/zsmartex/avalanchego/utils/constants"
+	"github.com/zsmartex/avalanchego/utils/crypto"
+	"github.com/zsmartex/avalanchego/utils/units"
+	"github.com/zsmartex/avalanchego/vms/components/avax"
+	"github.com/zsmartex/avalanchego/vms/secp256k1fx"
+	"github.com/zsmartex/coreth/params"
 )
 
 // createExportTxOptions adds funds to shared memory, imports them, and returns a list of export transactions

@@ -33,11 +33,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/eth/tracers"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/core/state"
+	"github.com/zsmartex/coreth/core/vm"
+	"github.com/zsmartex/coreth/eth/tracers"
+	"github.com/zsmartex/coreth/params"
 )
 
 type account struct{}

@@ -6,13 +6,13 @@ package evm
 import (
 	"testing"
 
-	"github.com/ava-labs/coreth/params"
+	"github.com/zsmartex/coreth/params"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/chain"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/utils/crypto"
+	"github.com/zsmartex/avalanchego/vms/components/avax"
+	"github.com/zsmartex/avalanchego/vms/components/chain"
+	"github.com/zsmartex/avalanchego/vms/secp256k1fx"
 
 	"github.com/stretchr/testify/assert"
 )

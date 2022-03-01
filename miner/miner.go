@@ -28,13 +28,13 @@
 package miner
 
 import (
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
+	"github.com/zsmartex/avalanchego/utils/timer/mockable"
+	"github.com/zsmartex/coreth/consensus"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/params"
 )
 
 // Backend wraps all methods required for mining.

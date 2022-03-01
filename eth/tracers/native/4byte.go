@@ -33,9 +33,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/eth/tracers"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/core/vm"
+	"github.com/zsmartex/coreth/eth/tracers"
 )
 
 func init() {

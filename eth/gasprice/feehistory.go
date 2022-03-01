@@ -34,11 +34,11 @@ import (
 	"sort"
 	"sync/atomic"
 
-	_ "github.com/ava-labs/coreth/consensus/misc"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	_ "github.com/zsmartex/coreth/consensus/misc"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/rpc"
 )
 
 var (

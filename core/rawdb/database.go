@@ -32,12 +32,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/ethdb/leveldb"
-	"github.com/ava-labs/coreth/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/ethdb/leveldb"
+	"github.com/zsmartex/coreth/ethdb/memorydb"
 )
 
 // nofreezedb is a database wrapper that disables freezer data retrievals.

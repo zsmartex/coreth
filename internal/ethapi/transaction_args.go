@@ -33,12 +33,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/rpc"
 )
 
 // TransactionArgs represents the arguments to construct a new transaction

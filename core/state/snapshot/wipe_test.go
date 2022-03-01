@@ -30,9 +30,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/core/rawdb"
+	"github.com/zsmartex/coreth/ethdb/memorydb"
 )
 
 // Tests that given a database with random data content, all parts of a snapshot

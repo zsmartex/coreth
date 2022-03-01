@@ -29,10 +29,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/ava-labs/coreth/accounts"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/zsmartex/coreth/accounts"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/interfaces"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

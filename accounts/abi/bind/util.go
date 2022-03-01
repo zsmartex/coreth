@@ -31,10 +31,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/interfaces"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

@@ -29,10 +29,10 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/eth/gasprice"
-	"github.com/ava-labs/coreth/miner"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/eth/gasprice"
+	"github.com/zsmartex/coreth/miner"
 )
 
 // DefaultFullGPOConfig contains default gasprice oracle settings for full node.

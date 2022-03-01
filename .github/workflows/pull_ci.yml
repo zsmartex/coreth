@@ -6,7 +6,7 @@ on:
       avalanchegoRepo:
         description: 'avalanchego github repository'
         required: true
-        default: 'ava-labs/avalanchego'
+        default: 'zsmartex/avalanchego'
       avalanchegoBranch:
         description: 'avalanchego branch'
         required: true
@@ -33,7 +33,7 @@ jobs:
       - name: change avalanchego dep
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
-          go mod edit -replace github.com/ava-labs/avalanchego=./avalanchego
+          go mod edit -replace github.com/zsmartex/avalanchego=./avalanchego
           go mod tidy
           go clean -modcache # avoid conflicts with the golangci-lint-action cache
       - name: golangci-lint
@@ -65,7 +65,7 @@ jobs:
     - name: change avalanchego dep
       if: ${{ github.event_name == 'workflow_dispatch' }}
       run: |
-        go mod edit -replace github.com/ava-labs/avalanchego=./avalanchego
+        go mod edit -replace github.com/zsmartex/avalanchego=./avalanchego
         go mod tidy
     - run: go mod download
       shell: bash
@@ -96,7 +96,7 @@ jobs:
     - name: change avalanchego dep
       if: ${{ github.event_name == 'workflow_dispatch' }}
       run: |
-        go mod edit -replace github.com/ava-labs/avalanchego=./avalanchego
+        go mod edit -replace github.com/zsmartex/avalanchego=./avalanchego
         go mod tidy
     - name: prepare avalanchego directory for docker copy
       if: ${{ github.event_name == 'workflow_dispatch' }}

@@ -33,13 +33,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/ethdb/memorydb"
-	"github.com/ava-labs/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/ethdb/memorydb"
+	"github.com/zsmartex/coreth/trie"
 	"golang.org/x/crypto/sha3"
 )
 

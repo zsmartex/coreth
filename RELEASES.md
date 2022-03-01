@@ -1,12 +1,12 @@
 # Release Notes
 
-## [v0.8.6](https://github.com/ava-labs/coreth/releases/tag/v0.8.6)
+## [v0.8.6](https://github.com/zsmartex/coreth/releases/tag/v0.8.6)
 
 - Migrate go-ethereum v1.10.16 changes
 - Increase FeeHistory maximum historical limit to improve MetaMask UI on C-Chain
 - Enable chain state metrics
 
-## [v0.8.5](https://github.com/ava-labs/coreth/releases/tag/v0.8.5)
+## [v0.8.5](https://github.com/zsmartex/coreth/releases/tag/v0.8.5)
 
 - Add support for offline pruning
 - Refactor VM networking layer

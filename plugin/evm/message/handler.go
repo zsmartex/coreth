@@ -6,7 +6,7 @@ package message
 import (
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/ids"
 )
 
 var _ GossipHandler = NoopMempoolGossipHandler{}

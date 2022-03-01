@@ -32,11 +32,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/coreth/accounts"
-	"github.com/ava-labs/coreth/accounts/external"
-	"github.com/ava-labs/coreth/accounts/keystore"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/accounts"
+	"github.com/zsmartex/coreth/accounts/external"
+	"github.com/zsmartex/coreth/accounts/keystore"
+	"github.com/zsmartex/coreth/rpc"
 )
 
 // Config represents a small collection of configuration values to fine tune the

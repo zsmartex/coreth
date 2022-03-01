@@ -31,12 +31,12 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/params"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

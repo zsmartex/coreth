@@ -32,15 +32,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/vm"
+	"github.com/zsmartex/coreth/core/vm"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/bloombits"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/bloombits"
+	"github.com/zsmartex/coreth/core/types"
+	"github.com/zsmartex/coreth/ethdb"
+	"github.com/zsmartex/coreth/rpc"
 )
 
 type Backend interface {

@@ -7,16 +7,16 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/zsmartex/avalanchego/utils"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/params"
+	"github.com/zsmartex/avalanchego/chains/atomic"
+	"github.com/zsmartex/avalanchego/codec"
+	"github.com/zsmartex/avalanchego/codec/linearcodec"
+	"github.com/zsmartex/avalanchego/ids"
+	"github.com/zsmartex/avalanchego/snow"
+	"github.com/zsmartex/avalanchego/utils/wrappers"
+	"github.com/zsmartex/coreth/core/state"
+	"github.com/zsmartex/coreth/params"
 )
 
 type TestTx struct {

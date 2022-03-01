@@ -27,9 +27,9 @@
 package rawdb
 
 import (
-	"github.com/ava-labs/coreth/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/ethdb"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

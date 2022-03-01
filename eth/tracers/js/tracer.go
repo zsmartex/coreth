@@ -38,14 +38,14 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/vm"
-	tracers2 "github.com/ava-labs/coreth/eth/tracers"
-	"github.com/ava-labs/coreth/eth/tracers/js/internal/tracers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/zsmartex/coreth/core"
+	"github.com/zsmartex/coreth/core/vm"
+	tracers2 "github.com/zsmartex/coreth/eth/tracers"
+	"github.com/zsmartex/coreth/eth/tracers/js/internal/tracers"
 	"gopkg.in/olebedev/go-duktape.v3"
 )
 
