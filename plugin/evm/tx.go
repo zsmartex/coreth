@@ -179,9 +179,6 @@ func (tx *Tx) BlockFeeContribution(fixedFee bool, avaxAssetID ids.ID, baseFee *b
 	if err != nil {
 		return nil, nil, err
 	}
-	if burned == 0 {
-		burned = txFee
-	}
 	if txFee > burned {
 		return nil, nil, fmt.Errorf("insufficient AVAX burned (%d) to cover import tx fee (%d)", burned, txFee)
 	}
